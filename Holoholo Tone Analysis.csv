@@ -1,0 +1,54 @@
+Input,Output,,,,,rules:
+LHL,LLH,kumoná,‘to see’,,,{ }squish
+LLL,LLL,kulola,‘to look at’,,,1. (rotate right),domain-bound
+LLLL,LLLL,kukoloma,‘to irritate’,,,2. HL-> HF
+{LL}L,LL,kweema,‘to suffer’,,,3. FL -> HL
+{LH}L,LH,kwiitá,‘to call’,,,[ ]squish
+{LL}LL,LLL,kwiihaga,‘to kill’
+LFL,LLF
+[LH]L,LH
+[LL]L,LL,kuula,‘to buy’
+LLL,LLL
+{LH}LL,LHF,kwiilólâ,‘to look at onseslf’,,,squish patterns:
+LHLL,LLHF,,,,,[HL] --> F
+LHLLL,LLHHL,,,,,[HH] --> H
+LFLL,LLHL,,,,,[HF] --> F
+{LL}LLL,LLLL,,,,,[LH] --> L
+LHLLLL,LLHHLL,,,,,[LL] --> L
+LLLLL,LLLLL,,,,,[LF] --> L
+{LH}LLL,LHHL,kweelélána,‘to clean e.o. up’,,,[FL] --> F
+[LH]LL,LHF,,,,,[FH] --> F
+L{HL}L,LLF,,,,,[FF] --> F
+[LH]LLL,LHHL
+LLLLL,LLLLL
+{LH}FLL,LHHL,kwiitíínína,‘to worry onseself’
+{LH}HL,LHH,kwiimóná,‘to see oneself’
+L[HL]LL,LLHL
+LHHHL,LLHHH
+[LH]LLL,LHHL
+LLHL,LLLH
+LLHLLL,LLLHHL
+LLFLL,LLLHL
+LLHL,LLLH
+LLHLLL,LLLHHL
+LLFLL,LLLHL
+LHLL,LLHF
+LHLLL,LLHHL
+LHHL,LLHH,kusimóná,‘to not see’
+LHHLLL,LLHHHL
+LHHLL,LLHHF
+L[HH]LL,LLHF,kusiilólâ,‘to not look at self’
+L[HH]HL,LLHH,kusiimóná,‘to not see self’
+LHFLL,LLHHL
+LH[LL]L,LLHL
+L[HH]L,LLH
+L{HL}L,LLF,kusjuulâ,‘to not buy’
+L{HL}LL,LLHL
+L[HH]LL,LLHF
+LHLL[LL],LLHHL
+LF[LL],LLF
+LH[LL],LLF
+[LH][LL],LF,koonkjâ,‘to make suck’
+LHL[LL],LLHF
+H(LHL),HHLH,úlólilé,‘he looked’
+H(HHL),HHHH,úsílílé,‘he forged’
