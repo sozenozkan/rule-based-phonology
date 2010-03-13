@@ -3,7 +3,7 @@ LLL,LLL,kulola,,,,{ }squish
 LLL,LLL,kuhiita,,,,1. (rotate right),domain-bound
 [LL]L,LL,kuula,,,,2. HL-> HF
 {LL}L,LL,kweema,,,,3. FL -> HL
-LLL,LLL,kusjiika,,,,[ ]squish
+LLLL,LLLL,kusjiika,,,,[ ]squish
 LHL,LLH,kumoná
 LHL,LLH,kuhimá
 [LH]L,LH,kwiitá
@@ -11,12 +11,12 @@ LHL,LLH,kuljá
 LHL,LLH,kuloombá
 [LH]L,LH,kwiimbá,,,,squish patterns:
 LFL,LLF,kubiikâ,,,,[HL] --> F
-LFL,LLF,kubuusjâ,,,,[HH] --> H
+LLFL,LLLF,kubuusjâ,,,,[HH] --> H
 [LH]LL,LHF,kwaatíkâ,,,,[HF] --> F
 [LH]LL,LHF,kweelélâ,,,,[LH] --> L
 LLL,LLL,kubula,,,,[LL] --> L
 LLL,LLL,kutuuta,,,,[LF] --> L
-[LL]L,LL,kooja,,,,[FL] --> F
+[LL]LL,LLL,kooja,,,,[FL] --> F
 LLLL,LLLL,kukoloma,,,,[FH] --> F
 [LL]LL,LLL,kwiihaga,,,,[FF] --> F
 LHL,LLH,kusilá
@@ -33,7 +33,7 @@ LFLL,LLHL,kutiinína
 LLLL,LLLL,kulolana
 LFLL,LLHL,kukwaatána
 [LL]LLL,LLLL,kwiihagana
-LLLL,LLLL,kusjiikana
+LLLLL,LLLLL,kusjiikana
 LHLLLL,LLHHLL,kutegélélana
 LHLL,LLHF,kumonánâ
 [LH]LL,LHF,kwiitánâ
@@ -44,7 +44,7 @@ LLLL,LLLL,kutuutila
 L[HL]L,LLF,kuliilâ
 LHLL,LLHF,kuloombélâ
 LFLL,LLHL,kubiikíla
-,,LHLL,LLHL,kutimwíína
+,,kutimwíína
 [LH]LLL,LHHL,koogéléla
 LLLL,LLLL,kubulila
 LHLL,LLHF,kusilílâ
@@ -55,16 +55,16 @@ LHLLL,LLHHL,kusiingínína
 L[HL]LL,LLHL,kuliilíla
 LHLLL,LLHHL,kusilílána
 LHLLL,LLHHL,kuloombélána
-,,LHLL,LLHL,kuhuulééna
+LHLLL,LLHHL,kuhuulééna
 LLLLL,LLLLL,kubulilana
 [LH]LLLL,LHHLL,koogélélana
-,,kutegélésja
-,,kuɲwiisâ
-,,kukwaatjâ
-,,kubusjâ
-,,kusiindálâ
-,,kuhimjâ
-,,koonkjâ
+LHLL[LL],LLHHL,kutegélésja
+LF[LL],LLF,kuɲwiisâ
+LF[LL],LLF,kukwaatjâ
+LH[LL],LLF,kubusjâ
+LHL[LL],LLHF,kusiindálâ
+LH[LL],LLF,kuhimjâ
+[LH][LL],LF,koonkjâ
 [LH]FLL,LHHL,kwiitíínína
 [LH]LL,LHF,kwiilólâ
 LHHL,LLHH,kusimóná

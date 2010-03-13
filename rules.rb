@@ -75,7 +75,24 @@ class String
 	end
 
 	def F_H_non_ending
-		while gsub!(/(.*)F(.+)/,      '\1H\2'); end
+		case self
+		when /\{.*\}/ then
+			open_curly_bracket_index = index('{')
+			close_curly_bracket_index = index('}')
+			gsub!(/([^\{]*)\{([^\}]*)\}(.*)/, '\1\2\3')
+			self.F_H_non_ending
+			insert(open_curly_bracket_index, '{')
+			insert(close_curly_bracket_index, '}')
+		when /\[.*\]/ then
+			open_square_bracket_index = index('[')
+			close_square_bracket_index = index(']')
+			gsub!(/([^\[]*)\[([^\]]*)\](.*)/, '\1\2\3')
+			self.F_H_non_ending
+			insert(open_square_bracket_index, '[')
+			insert(close_square_bracket_index, ']')
+		else
+			while gsub!(/(.*)F(.+)/,      '\1H\2'); end
+		end
 		self
 	end
 
