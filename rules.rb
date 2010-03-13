@@ -5,33 +5,18 @@ class String
 		"output string"
 	end
 
-	def starting_squish_curly_brace
-		#if it sees 2 letters in curly braces,
-		#	replaces "{HL}" => "F"
-		gsub!(/^\{HL\}(.*)/, 'F\1')
-		gsub!(/^\{HH\}(.*)/, 'H\1')
-		gsub!(/^\{HF\}(.*)/, 'F\1')
-		gsub!(/^\{LH\}(.*)/, 'L\1')
-		gsub!(/^\{LL\}(.*)/, 'L\1')
-		gsub!(/^\{LF\}(.*)/, 'L\1')
-		gsub!(/^\{FL\}(.*)/, 'F\1')
-		gsub!(/^\{FH\}(.*)/, 'F\1')
-		gsub!(/^\{FF\}(.*)/, 'F\1')
-		self
-	end
-
 	def squish_curly_brace
 		#if it sees 2 letters in curly braces,
 		#	replaces "{HL}" => "F"
-		gsub!(/(.+)\{HL\}(.*)/, '\1F\2')
-		gsub!(/(.+)\{HH\}(.*)/, '\1H\2')
-		gsub!(/(.+)\{HF\}(.*)/, '\1F\2')
-		gsub!(/(.+)\{LH\}(.*)/, '\1L\2')
-		gsub!(/(.+)\{LL\}(.*)/, '\1L\2')
-		gsub!(/(.+)\{LF\}(.*)/, '\1L\2')
-		gsub!(/(.+)\{FL\}(.*)/, '\1F\2')
-		gsub!(/(.+)\{FH\}(.*)/, '\1F\2')
-		gsub!(/(.+)\{FF\}(.*)/, '\1F\2')
+		gsub!(/(.*)\{HL\}(.*)/, '\1F\2')
+		gsub!(/(.*)\{HH\}(.*)/, '\1H\2')
+		gsub!(/(.*)\{HF\}(.*)/, '\1F\2')
+		gsub!(/(.*)\{LH\}(.*)/, '\1L\2')
+		gsub!(/(.*)\{LL\}(.*)/, '\1L\2')
+		gsub!(/(.*)\{LF\}(.*)/, '\1L\2')
+		gsub!(/(.*)\{FL\}(.*)/, '\1F\2')
+		gsub!(/(.*)\{FH\}(.*)/, '\1F\2')
+		gsub!(/(.*)\{FF\}(.*)/, '\1F\2')
 		self
 	end
 
@@ -86,6 +71,11 @@ class String
 		while gsub!(/(.*)F\[L(.*)/,   '\1H[L\2'); end
 		while gsub!(/(.*)F\]L(.*)/,   '\1H]L\2'); end
 		while gsub!(/(.*)F\]\[L(.*)/,'\1H][L\2'); end
+		self
+	end
+
+	def F_H_non_ending
+		while gsub!(/(.*)F(.+)/,      '\1H\2'); end
 		self
 	end
 
@@ -225,12 +215,10 @@ class Test_rules < Test::Unit::TestCase
 				puts "rotate_right_L = #{transformed}"
 				transformed = transformed.HL_HF
 				puts "HL_HF = #{transformed}"
-				transformed = transformed.FL_HL
-				puts "FL_HL = #{transformed}"
+				transformed = transformed.F_H_non_ending
+				puts "F_H = #{transformed}"
 				transformed = transformed.squish_square_brace
 				puts "squish_square_brace = #{transformed}"
-				transformed = transformed.starting_squish_curly_brace
-				puts "starting_squish_curly_brace = #{transformed}"
 				puts
 				assert_equal(output_form, transformed)
 			end

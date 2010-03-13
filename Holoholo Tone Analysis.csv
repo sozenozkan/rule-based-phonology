@@ -1,54 +1,104 @@
 Input,Output,,,,,rules:
-LHL,LLH,kumoná,‘to see’,,,{ }squish
-LLL,LLL,kulola,‘to look at’,,,1. (rotate right),domain-bound
-LLLL,LLLL,kukoloma,‘to irritate’,,,2. HL-> HF
-{LL}L,LL,kweema,‘to suffer’,,,3. FL -> HL
-{LH}L,LH,kwiitá,‘to call’,,,[ ]squish
-{LL}LL,LLL,kwiihaga,‘to kill’
-LFL,LLF
-[LH]L,LH
-[LL]L,LL,kuula,‘to buy’
-LLL,LLL
-{LH}LL,LHF,kwiilólâ,‘to look at onseslf’,,,squish patterns:
-LHLL,LLHF,,,,,[HL] --> F
-LHLLL,LLHHL,,,,,[HH] --> H
-LFLL,LLHL,,,,,[HF] --> F
-{LL}LLL,LLLL,,,,,[LH] --> L
-LHLLLL,LLHHLL,,,,,[LL] --> L
-LLLLL,LLLLL,,,,,[LF] --> L
-{LH}LLL,LHHL,kweelélána,‘to clean e.o. up’,,,[FL] --> F
-[LH]LL,LHF,,,,,[FH] --> F
-L{HL}L,LLF,,,,,[FF] --> F
-[LH]LLL,LHHL
-LLLLL,LLLLL
-{LH}FLL,LHHL,kwiitíínína,‘to worry onseself’
-{LH}HL,LHH,kwiimóná,‘to see oneself’
-L[HL]LL,LLHL
-LHHHL,LLHHH
-[LH]LLL,LHHL
-LLHL,LLLH
-LLHLLL,LLLHHL
-LLFLL,LLLHL
-LLHL,LLLH
-LLHLLL,LLLHHL
-LLFLL,LLLHL
-LHLL,LLHF
-LHLLL,LLHHL
-LHHL,LLHH,kusimóná,‘to not see’
-LHHLLL,LLHHHL
-LHHLL,LLHHF
-L[HH]LL,LLHF,kusiilólâ,‘to not look at self’
-L[HH]HL,LLHH,kusiimóná,‘to not see self’
-LHFLL,LLHHL
-LH[LL]L,LLHL
-L[HH]L,LLH
-L{HL}L,LLF,kusjuulâ,‘to not buy’
-L{HL}LL,LLHL
-L[HH]LL,LLHF
-LHLL[LL],LLHHL
-LF[LL],LLF
-LH[LL],LLF
-[LH][LL],LF,koonkjâ,‘to make suck’
-LHL[LL],LLHF
-H(LHL),HHLH,úlólilé,‘he looked’
-H(HHL),HHHH,úsílílé,‘he forged’
+LLL,LLL,kulola,,,,{ }squish
+LLL,LLL,kuhiita,,,,1. (rotate right),domain-bound
+[LL]L,LL,kuula,,,,2. HL-> HF
+{LL}L,LL,kweema,,,,3. FL -> HL
+LLL,LLL,kusjiika,,,,[ ]squish
+LHL,LLH,kumoná
+LHL,LLH,kuhimá
+[LH]L,LH,kwiitá
+LHL,LLH,kuljá
+LHL,LLH,kuloombá
+[LH]L,LH,kwiimbá,,,,squish patterns:
+LFL,LLF,kubiikâ,,,,[HL] --> F
+LFL,LLF,kubuusjâ,,,,[HH] --> H
+[LH]LL,LHF,kwaatíkâ,,,,[HF] --> F
+[LH]LL,LHF,kweelélâ,,,,[LH] --> L
+LLL,LLL,kubula,,,,[LL] --> L
+LLL,LLL,kutuuta,,,,[LF] --> L
+[LL]L,LL,kooja,,,,[FL] --> F
+LLLL,LLLL,kukoloma,,,,[FH] --> F
+[LL]LL,LLL,kwiihaga,,,,[FF] --> F
+LHL,LLH,kusilá
+LHL,LLH,kubusá
+[LH]L,LH,koogá
+LHL,LLH,kuhjá
+LHL,LLH,kutoontá
+[LH]L,LH,koonká
+LFL,LLF,kubiihâ
+LFL,LLF,kukwaatâ
+LHLL,LLHF,kusiingínâ
+LHLLL,LLHHL,kutegéléla
+LFLL,LLHL,kutiinína
+LLLL,LLLL,kulolana
+LFLL,LLHL,kukwaatána
+[LL]LLL,LLLL,kwiihagana
+LLLL,LLLL,kusjiikana
+LHLLLL,LLHHLL,kutegélélana
+LHLL,LLHF,kumonánâ
+[LH]LL,LHF,kwiitánâ
+LLLLL,LLLLL,kusololana
+[LH]LLL,LHHL,kweelélána
+LLLL,LLLL,kutuutila
+[LH]LL,LHF,koogélâ
+L[HL]L,LLF,kuliilâ
+LHLL,LLHF,kuloombélâ
+LFLL,LLHL,kubiikíla
+,,LHLL,LLHL,kutimwíína
+[LH]LLL,LHHL,koogéléla
+LLLL,LLLL,kubulila
+LHLL,LLHF,kusilílâ
+L[HL]L,LLF,kuhiilâ
+[LH]LL,LHF,kwiimbílâ
+LHLLL,LLHHL,kusiingínína
+[LH]HL,LHH,kwiimóná
+L[HL]LL,LLHL,kuliilíla
+LHLLL,LLHHL,kusilílána
+LHLLL,LLHHL,kuloombélána
+,,LHLL,LLHL,kuhuulééna
+LLLLL,LLLLL,kubulilana
+[LH]LLLL,LHHLL,koogélélana
+,,kutegélésja
+,,kuɲwiisâ
+,,kukwaatjâ
+,,kubusjâ
+,,kusiindálâ
+,,kuhimjâ
+,,koonkjâ
+[LH]FLL,LHHL,kwiitíínína
+[LH]LL,LHF,kwiilólâ
+LHHL,LLHH,kusimóná
+LHFLL,LLHHL,kusitíínína
+L[HL]L,LLF,kusjuulâ
+L[HL]LL,LLHL,kusjuulána
+L[HH]LL,LLHF,kusiilólâ
+LHLL,LLHF,kusilólâ
+LHLLL,LLHHL,kusikólóma
+L[HH]L,LLH,kusiitá
+L[HH]HL,LLHH,kusiimóná
+LLLLL,LLLLL,kumukoloma
+LLLL,LLLL,kumulola
+LLHL,LLLH,kumumoná
+LLHLLL,LLLHHL,kumutegéléla
+LLFLL,LLLHL,kumutiinína
+LHLLL,LLHHL,kusimúlóla
+LHLHL,LLHHH,kusimúmóná
+LHLLL,LLHHL,kubakólóma
+LHLL,LLHF,kubalólâ
+LHHL,LLHH,kubamóná
+LHHLLL,LLHHHL,kubatégéléla
+LH[LL]L,LLHL,kusimúúla
+LHHLL,LLHHF,kusibálólâ
+LHHHL,LLHHH,kusibámóná
+LHLLL,LLHHL,kutoontámána
+,,kuɲwiisííbwa
+LLHL,LLLH,ulolilé
+LLHL,LLLH,tulolilé
+LLHL,LLLH,mulolilé
+H(LHL),HHLH,úlólilé
+H(LHL),HHLH,bálólilé
+LHHL,LLHH,usilílé
+LHHL,LLHH,tusilílé
+LHHL,LLHH,musilílé
+H(HHL),HHHH,úsílílé
+H(HHL),HHHH,básílílé
