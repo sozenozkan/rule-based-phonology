@@ -1,104 +1,104 @@
 Input,Output,,,,,rules:
-LLL,LLL,kulola,,,,{ }squish
-LLL,LLL,kuhiita,,,,1. (rotate right),domain-bound
-[LL]L,LL,kuula,,,,2. HL-> HF
-{LL}L,LL,kweema,,,,3. FL -> HL
-LLLL,LLLL,kusjiika,,,,[ ]squish
-LHL,LLH,kumoná
-LHL,LLH,kuhimá
-[LH]L,LH,kwiitá
-LHL,LLH,kuljá
-LHL,LLH,kuloombá
-[LH]L,LH,kwiimbá,,,,squish patterns:
-LFL,LLF,kubiikâ,,,,[HL] --> F
-LLFL,LLLF,kubuusjâ,,,,[HH] --> H
-[LH]LL,LHF,kwaatíkâ,,,,[HF] --> F
-[LH]LL,LHF,kweelélâ,,,,[LH] --> L
-LLL,LLL,kubula,,,,[LL] --> L
-LLL,LLL,kutuuta,,,,[LF] --> L
-[LL]LL,LLL,kooja,,,,[FL] --> F
-LLLL,LLLL,kukoloma,,,,[FH] --> F
-[LL]LL,LLL,kwiihaga,,,,[FF] --> F
-LHL,LLH,kusilá
-LHL,LLH,kubusá
-[LH]L,LH,koogá
-LHL,LLH,kuhjá
-LHL,LLH,kutoontá
-[LH]L,LH,koonká
-LFL,LLF,kubiihâ
-LFL,LLF,kukwaatâ
-LHLL,LLHF,kusiingínâ
-LHLLL,LLHHL,kutegéléla
-LFLL,LLHL,kutiinína
-LLLL,LLLL,kulolana
-LFLL,LLHL,kukwaatána
-[LL]LLL,LLLL,kwiihagana
-LLLLL,LLLLL,kusjiikana
-LHLLLL,LLHHLL,kutegélélana
-LHLL,LLHF,kumonánâ
-[LH]LL,LHF,kwiitánâ
-LLLLL,LLLLL,kusololana
-[LH]LLL,LHHL,kweelélána
-LLLL,LLLL,kutuutila
-[LH]LL,LHF,koogélâ
-L[HL]L,LLF,kuliilâ
-LHLL,LLHF,kuloombélâ
-LFLL,LLHL,kubiikíla
-,,kutimwíína
-[LH]LLL,LHHL,koogéléla
-LLLL,LLLL,kubulila
-LHLL,LLHF,kusilílâ
-L[HL]L,LLF,kuhiilâ
-[LH]LL,LHF,kwiimbílâ
-LHLLL,LLHHL,kusiingínína
-[LH]HL,LHH,kwiimóná
-L[HL]LL,LLHL,kuliilíla
-LHLLL,LLHHL,kusilílána
-LHLLL,LLHHL,kuloombélána
-LHLLL,LLHHL,kuhuulééna
-LLLLL,LLLLL,kubulilana
-[LH]LLLL,LHHLL,koogélélana
-LHLL[LL],LLHHL,kutegélésja
-LF[LL],LLF,kuɲwiisâ
-LF[LL],LLF,kukwaatjâ
-LH[LL],LLF,kubusjâ
-LHL[LL],LLHF,kusiindálâ
-LH[LL],LLF,kuhimjâ
-[LH][LL],LF,koonkjâ
-[LH]FLL,LHHL,kwiitíínína
-[LH]LL,LHF,kwiilólâ
-LHHL,LLHH,kusimóná
-LHFLL,LLHHL,kusitíínína
-L[HL]L,LLF,kusjuulâ
-L[HL]LL,LLHL,kusjuulána
-L[HH]LL,LLHF,kusiilólâ
-LHLL,LLHF,kusilólâ
-LHLLL,LLHHL,kusikólóma
-L[HH]L,LLH,kusiitá
-L[HH]HL,LLHH,kusiimóná
-LLLLL,LLLLL,kumukoloma
-LLLL,LLLL,kumulola
-LLHL,LLLH,kumumoná
-LLHLLL,LLLHHL,kumutegéléla
-LLFLL,LLLHL,kumutiinína
-LHLLL,LLHHL,kusimúlóla
-LHLHL,LLHHH,kusimúmóná
-LHLLL,LLHHL,kubakólóma
-LHLL,LLHF,kubalólâ
-LHHL,LLHH,kubamóná
-LHHLLL,LLHHHL,kubatégéléla
-LH[LL]L,LLHL,kusimúúla
-LHHLL,LLHHF,kusibálólâ
-LHHHL,LLHHH,kusibámóná
-LHLLL,LLHHL,kutoontámána
-,,kuɲwiisííbwa
-LLHL,LLLH,ulolilé
-LLHL,LLLH,tulolilé
-LLHL,LLLH,mulolilé
-H(LHL),HHLH,úlólilé
-H(LHL),HHLH,bálólilé
-LHHL,LLHH,usilílé
-LHHL,LLHH,tusilílé
-LHHL,LLHH,musilílé
-H(HHL),HHHH,úsílílé
-H(HHL),HHHH,básílílé
+LLL,LLL,kulola,‘to look at’,,,{ }squish
+LLL,LLL,kuhiita,‘to be black’,,,1. (rotate right),domain-bound
+[LL]L,LL,kuula,‘to buy’,,,2. HL-> HF
+{LL}L,LL,kweema,‘to suffer’,,,3. FL -> HL
+LLL,LLL,kusjiika,‘to bury’,,,[ ]squish
+LHL,LLH,kumoná,‘to see’
+LHL,LLH,kuhimá,‘to leave’
+{LH}L,LH,kwiitá,‘to call’
+LHL,LLH,kuljá,‘to eat’
+LHL,LLH,kuloombá,‘to request’
+[LH]L,LH,kwiimbá,‘to sing’,,,squish patterns:
+LFL,LLF,kubiikâ,‘to put’,,,[HL] --> F
+LFL,LLF,kubuusjâ,‘to ask’,,,[HH] --> H
+[LH]LL,LHF,kwaatíkâ,‘to split’,,,[HF] --> F
+[LH]LL,LHF,kweelélâ,‘to clean up’,,,[LH] --> L
+LLL,LLL,kubula,‘to draw’,,,[LL] --> L
+LLL,LLL,kutuuta,‘to hit’,,,[LF] --> L
+[LL]L,LL,kooja,‘to rest’,,,[FL] --> F
+LLLL,LLLL,kukoloma,‘to irritate’,,,[FH] --> F
+[LL]LL,LLL,kwiihaga,‘to kill’,,,[FF] --> F
+LHL,LLH,kusilá,‘to forge’
+LHL,LLH,kubusá,‘to miss’
+[LH]L,LH,koogá,‘to wash’
+L[HL],LH,kuhjá,‘to carry’
+LHL,LLH,kutoontá,‘to fill’
+[LH]L,LH,koonká,‘to suck’
+LFL,LLF,kubiihâ,‘to be bad’
+LFL,LLF,kukwaatâ,‘to own’
+LHLL,LLHF,kusiingínâ,‘to put across’
+LHLLL,LLHHL,kutegéléla,‘to listen’
+LFLL,LLHL,kutiinína,‘to worry’
+LLLL,LLLL,kulolana,‘to look at e.o’
+LFLL,LLHL,kukwaatána,‘to own e.o.’
+[LL]LLL,LLLL,kwiihagana,‘to kill e.o.’
+LLLL,LLLL,kusjiikana,‘to bury e.o.’
+LHLLLL,LLHHLL,kutegélélana,‘to listen to e.o.’
+LHLL,LLHF,kumonánâ,‘to see e.o.’
+[LH]LL,LHF,kwiitánâ,‘to call e.o.’
+LLLLL,LLLLL,kusololana,‘to choose e.o.’
+[LH]LLL,LHHL,kweelélána,‘to clean e.o. up’
+LLLL,LLLL,kutuutila,‘to hit for’
+[LH]LL,LHF,koogélâ,‘to wash for’
+L{HL}L,LLF,kuliilâ,‘to eat for’
+LHLL,LLHF,kuloombélâ,‘to request for’
+LFLL,LLHL,kubiikíla,‘to put for’
+LL[FL]L,LLHL,kutimwíína,‘to break for’
+[LH]LLL,LHHL,koogéléla,‘to wash for s.t. for s.t. else’
+LLLL,LLLL,kubulila,‘to draw for’
+LHLL,LLHF,kusilílâ,‘to forge for’
+L{HL}L,LLF,kuhiilâ,‘to carry for’
+[LH]LL,LHF,kwiimbílâ,‘to sing for’
+LHLLL,LLHHL,kusiingínína,‘to put across for’
+[LH]HL,LHH,kwiimóná,‘to see oneself’
+L{HL}LL,LLHL,kuliilíla,‘to eat for s.t. for s.t. else’
+LHLLL,LLHHL,kusilílána,‘to forge for e.o.’
+LHLLL,LLHHL,kuloombélána,‘to request for e.o.’
+LHLLL,LLHHL,kuhuulééna,‘to hit for e.o.’
+LLLLL,LLLLL,kubulilana,‘to draw for e.o.’
+[LH]LLLL,LHHLL,koogélélana,‘to wash for e.o.’
+LHLL[LL],LLHHL,kutegélésja,‘to make listen’
+LF[LL],LLF,kuɲwiisâ,‘to make drink’
+LF[LL],LLF,kukwaatjâ,‘to make own’
+LH[LL],LLF,kubusjâ,‘to make miss’
+LHL[LL],LLHF,kusiindálâ,‘to make disappear’
+LH[LL],LLF,kuhimjâ,‘to make leave’
+[LH][LL],LF,koonkjâ,‘to make suck’
+[LH]FLL,LHHL,kwiitíínína,‘to worry onseself’
+[LH]LL,LHF,kwiilólâ,‘to look at onseslf’
+LHHL,LLHH,kusimóná,‘to not see’
+LHFLL,LLHHL,kusitíínína,‘to not worry’
+L{HL}L,LLF,kusjuulâ,‘to not buy’
+L{HL}LL,LLHL,kusjuulána,‘to not buy e.o.’
+L{HH}LL,LLHF,kusiilólâ,‘to not look at self’
+LHLL,LLHF,kusilólâ,‘to not look at’
+LHLLL,LLHHL,kusikólóma,‘to not irritate’
+L{HH}L,LLH,kusiitá,‘to not call’
+L{HH}HL,LLHH,kusiimóná,‘to not see self’
+LLLLL,LLLLL,kumukoloma,‘to irritate him’
+LLLL,LLLL,kumulola,‘to look at him’
+LLHL,LLLH,kumumoná,‘to see him’
+LLHLLL,LLLHHL,kumutegéléla,‘to listen to him’
+LLFLL,LLLHL,kumutiinína,‘to worry him’
+LHLLL,LLHHL,kusimúlóla,‘to not look at him’
+LHLHL,LLHHH,kusimúmóná,‘to not see him’
+LHLLL,LLHHL,kubakólóma,‘to irritate them’
+LHLL,LLHF,kubalólâ,‘to look at them’
+LHHL,LLHH,kubamóná,‘to see them’
+LHHLLL,LLHHHL,kubatégéléla,‘to listen to them’
+LH[LL]L,LLHL,kusimúúla,‘to not buy him’
+LHHLL,LLHHF,kusibálólâ,‘to not look at them’
+LHHHL,LLHHH,kusibámóná,‘to not see them’
+LHLLL,LLHHL,kutoontámána,‘to be full’
+LFL[LL],LLHL,kuɲwiisííbwa,‘to be made to drink’
+LLHL,LLLH,ulolilé,‘you(sg) looked’
+LLHL,LLLH,tulolilé,‘we looked’
+LLHL,LLLH,mulolilé,‘you (pl) looked’
+H(LHL),HHLH,úlólilé,‘he looked’
+H(LHL),HHLH,bálólilé,‘they looked’
+LHHL,LLHH,usilílé,‘you (sg) forged’
+LHHL,LLHH,tusilílé,‘we forged’
+LHHL,LLHH,musilílé,‘you (pl) forged’
+H(HHL),HHHH,úsílílé,‘he forged’
+H(HHL),HHHH,básílílé,‘they forged’

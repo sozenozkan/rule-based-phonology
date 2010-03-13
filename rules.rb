@@ -8,30 +8,30 @@ class String
 	def squish_curly_brace
 		#if it sees 2 letters in curly braces,
 		#	replaces "{HL}" => "F"
-		gsub!(/(.*)\{HL\}(.*)/, '\1F\2')
-		gsub!(/(.*)\{HH\}(.*)/, '\1H\2')
-		gsub!(/(.*)\{HF\}(.*)/, '\1F\2')
-		gsub!(/(.*)\{LH\}(.*)/, '\1L\2')
-		gsub!(/(.*)\{LL\}(.*)/, '\1L\2')
-		gsub!(/(.*)\{LF\}(.*)/, '\1L\2')
-		gsub!(/(.*)\{FL\}(.*)/, '\1F\2')
-		gsub!(/(.*)\{FH\}(.*)/, '\1F\2')
-		gsub!(/(.*)\{FF\}(.*)/, '\1F\2')
+		while gsub!(/(.*)\{HL\}(.*)/, '\1F\2'); end
+		while gsub!(/(.*)\{HH\}(.*)/, '\1H\2'); end
+		while gsub!(/(.*)\{HF\}(.*)/, '\1F\2'); end
+		while gsub!(/(.*)\{LH\}(.*)/, '\1H\2'); end
+		while gsub!(/(.*)\{LL\}(.*)/, '\1L\2'); end
+		while gsub!(/(.*)\{LF\}(.*)/, '\1F\2'); end
+		while gsub!(/(.*)\{FL\}(.*)/, '\1F\2'); end
+		while gsub!(/(.*)\{FH\}(.*)/, '\1F\2'); end
+		while gsub!(/(.*)\{FF\}(.*)/, '\1F\2'); end
 		self
 	end
 
 	def squish_square_brace
 		#if it sees 2 letters in curly braces,
 		#	replaces "[HL]" => "F"
-		gsub!(/(.*)\[HL\](.*)/, '\1F\2')
-		gsub!(/(.*)\[HH\](.*)/, '\1H\2')
-		gsub!(/(.*)\[HF\](.*)/, '\1F\2')
-		gsub!(/(.*)\[LH\](.*)/, '\1L\2')
-		gsub!(/(.*)\[LL\](.*)/, '\1L\2')
-		gsub!(/(.*)\[LF\](.*)/, '\1L\2')
-		gsub!(/(.*)\[FL\](.*)/, '\1F\2')
-		gsub!(/(.*)\[FH\](.*)/, '\1F\2')
-		gsub!(/(.*)\[FF\](.*)/, '\1F\2')
+		while gsub!(/(.*)\[HL\](.*)/, '\1F\2'); end
+		while gsub!(/(.*)\[HH\](.*)/, '\1H\2'); end
+		while gsub!(/(.*)\[HF\](.*)/, '\1F\2'); end
+		while gsub!(/(.*)\[LH\](.*)/, '\1H\2'); end
+		while gsub!(/(.*)\[LL\](.*)/, '\1L\2'); end
+		while gsub!(/(.*)\[LF\](.*)/, '\1F\2'); end
+		while gsub!(/(.*)\[FL\](.*)/, '\1F\2'); end
+		while gsub!(/(.*)\[FH\](.*)/, '\1F\2'); end
+		while gsub!(/(.*)\[FF\](.*)/, '\1F\2'); end
 		self
 	end
 
@@ -136,7 +136,7 @@ class Test_rules < Test::Unit::TestCase
 	end
 
 	def test_squish_curly_brace_LH_L
-		assert_equal("FLF", "F{LH}F".squish_curly_brace)
+		assert_equal("FHF", "F{LH}F".squish_curly_brace)
 	end
 
 	def test_squish_curly_brace_LL_L
@@ -144,7 +144,7 @@ class Test_rules < Test::Unit::TestCase
 	end
 
 	def test_squish_curly_brace_LF_L
-		assert_equal("FLF", "F{LF}F".squish_curly_brace)
+		assert_equal("FFF", "F{LF}F".squish_curly_brace)
 	end
 
 	def test_squish_curly_brace_FL_F
@@ -172,7 +172,7 @@ class Test_rules < Test::Unit::TestCase
 	end
 
 	def test_squish_square_brace_LH_L
-		assert_equal("L", "[LH]".squish_square_brace)
+		assert_equal("H", "[LH]".squish_square_brace)
 	end
 
 	def test_squish_square_brace_LL_L
@@ -180,7 +180,7 @@ class Test_rules < Test::Unit::TestCase
 	end
 
 	def test_squish_square_brace_LF_L
-		assert_equal("L", "[LF]".squish_square_brace)
+		assert_equal("F", "[LF]".squish_square_brace)
 	end
 
 	def test_squish_square_brace_FL_F
